@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".ScoreScreenActivity">
+
+    <TextView
+        android:id="@+id/finalMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF6200EE"
+        android:gravity="center"
+        android:text="Your final score is: " />
+
+    <TextView
+        android:id="@+id/finalScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="#424242"
+        android:gravity="center"
+        android:text="Your final score is: " />
+
+    <Button
+        android:id="@+id/buttonTakeNewQuiz"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="ReStart Quiz" />
+
+    <Button
+        android:id="@+id/buttonFinished"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="End" />
+
+
+    </LinearLayout>
